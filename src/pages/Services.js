@@ -20,7 +20,7 @@ function Services() {
 
       <MyPaintings />  {/* Display custom paintings */}
 
-      <section className={`${styles.servicePart} mt-5 text-center`}>
+      <section className={`${styles.servicePart} mt- text-center`}>
         <Container>
           <Row>
             <Col xs={12}>

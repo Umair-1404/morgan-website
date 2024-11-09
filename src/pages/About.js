@@ -37,7 +37,7 @@ function About() {
               <Button variant="outline-warning btn-lg">Learn More</Button>
             </Col>
             <Col lg="6" className="pt-5">
-              <img src={home} />
+              <img src={home} className={styles.aboutImg} />
             </Col>
           </Row>
         </Container>

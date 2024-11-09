@@ -38,44 +38,50 @@ function Home() {
               <Button variant="outline-warning btn-lg">Learn More</Button>
             </Col>
             <Col lg="6" className="pt-5">
-              <img src={home} />
+              <img src={home} className={styles.aboutImg} />
             </Col>
           </Row>
         </Container>
       </section>
       <MyPaintings />
-      <section className="mt-5 text-center">
-        <Container>
+      <section className={`${styles.servicePart} mt-5 text-center`}>
+      <Container>
           <Row>
-            <h2>Services</h2>
-            <p>
-              If you are looking for custom paintings, which will decorate your
-              home or office, consider<br/> booking one or several of my services
-              listed below. They will add more colors and emotions to <br/>your daily
-              life.
-            </p>
-            <Col lg="3" className="border p-5" >
-              <i className="fa-solid fa-user"></i>
+            <Col xs={12}>
+              <h2>Services</h2>
+              <p>
+                If you are looking for custom paintings that will decorate your
+                home or office, consider booking one or several of my services
+                listed below. They will add more colors and emotions to
+                your daily life.
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="3" className="border p-5 text-center" id={styles.serviceBorder}>
+              <i className="fa-solid fa-user fa-3x mb-3"></i>
               <h4>Portrait</h4>
             </Col>
-            <Col lg="3" className="border p-5" >
-              <i className="fa-solid fa-leaf"></i>
+            <Col lg="3" className="border p-5 text-center" id={styles.serviceBorder}>
+              <i className="fa-solid fa-leaf fa-3x mb-3"></i>
               <h4>Landscape</h4>
             </Col>
-            <Col lg="3" className="border p-5" >
-              <i className="fa-brands fa-apple"></i>
+            <Col lg="3" className="border p-5 text-center" id={styles.serviceBorder}>
+              <i className="fa-brands fa-apple fa-3x mb-3"></i>
               <h4>Still Life</h4>
             </Col>
-            <Col lg="3" className="border p-5" >
-              <i className="fa-solid fa-house"></i>
+            <Col lg="3" className="border p-5 text-center" id={styles.serviceBorder}>
+              <i className="fa-solid fa-house fa-3x mb-3"></i>
               <h4>Urban</h4>
             </Col>
           </Row>
-          <br />
-          <br />
-          <Button variant="outline-warning btn-lg">
-            View All Services
-          </Button>
+          <Row className="mt-4">
+            <Col xs={12} className="text-center mb-5">
+              <Button variant="outline-warning btn-lg" className={styles.btn}>
+                View All Services
+              </Button>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>

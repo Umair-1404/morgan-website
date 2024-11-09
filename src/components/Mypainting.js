@@ -6,11 +6,11 @@ import project3 from '../assets/project-3.jpg';
 import project4 from '../assets/project-4.jpg';
 import project5 from '../assets/project-5.jpg';
 import project6 from '../assets/project-6.jpg';
-import styles from './MyPainting.module.css'; // Import CSS Module
+import styles from './MyPainting.module.css';   
 
 const MyPaintings = () => {
   return (
-    <section className={`${styles['My-painting']} mt-5 py-5`}>
+    <section className={`${styles['My-painting']} py-5`}>
       <Container>
         <Row>
           <h2 className="text-center mb-5">My Paintings</h2>
@@ -18,7 +18,7 @@ const MyPaintings = () => {
 
         <Row>
           <Col lg="4" className="mb-3">
-            <Card className={styles['painting-card']}>
+            <Card className={`${styles['painting-card']}`}>
               <Card.Img variant="top" src={project1} alt="Sea Storm"  className={styles['painting-img']} />
               <Card.Body>
                 <Card.Title className={styles['painting-title']}>Sea Storm</Card.Title>

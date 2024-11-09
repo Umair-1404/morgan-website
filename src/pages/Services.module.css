@@ -1,4 +1,3 @@
-/* services.module.css */
 
 .bannerImg {
     background-image: url(../assets/bg.jpg);
@@ -24,14 +23,12 @@
   
   #serviceBorder {
     height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   
   .servicePart i {
-    font-size: 3rem;
+    font-size: 2rem;
     color: gold;
+    margin-right: 5px;
   }
   
   .servicePart .btn {

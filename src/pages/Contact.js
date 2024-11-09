@@ -23,7 +23,7 @@ function Contact() {
         <Container>
           <Row>
             <Col lg="6">
-              <h2>Get in Touch</h2>
+              <h2 className="mt-5">Get in Touch</h2>
               <br />
               <Form.Control type="text" placeholder="Your Name" />
               <br />
@@ -45,7 +45,7 @@ function Contact() {
               <Button variant="outline-warning btn-lg">Send Message</Button>
             </Col>
             <Col lg="6">
-              <h2>Our Address</h2>
+              <h2 className="mt-5">Our Address</h2>
               <i className="fa-solid fa-mobile px-3 py-4 pt-5"></i>
               <span>2130 Fulton Street, San Diego, CA 94117-1080 USA</span>
               <br />
