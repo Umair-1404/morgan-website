@@ -1,0 +1,95 @@
+.heroPart {
+    background-image: url(../assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .heroPart img {
+    padding-top: 220px;
+    padding-left: 220px;
+  }
+  
+  .aboutPart h2 {
+    font-size: 45px;
+  }
+  
+  .aboutPart p {
+    font-size: 17px;
+  }
+  
+  .MyPainting {
+    background-color: whitesmoke;
+  }
+  
+  .MyPainting h2 {
+    font-size: 45px;
+    padding-top: 51px;
+  }
+  
+  .MyPainting p {
+    font-size: 17px;
+    color: #6c757c;
+  }
+  
+  #cardName {
+    color: gold;
+  }
+  
+  #cardBody {
+    box-shadow: 4px 4px 5px gray;
+  }
+  
+  .servicePart h2 {
+    font-size: 45px;
+  }
+  
+  #serviceBorder {
+    height: 200px;
+  }
+  
+  .servicePart p {
+    font-size: 17px;
+    color: #6c757c;
+  }
+  
+  .servicePart i {
+    font-size: 2.5rem;
+    color: gold;
+  }
+  
+  .bannerImg {
+    background-image: url(../assets/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  
+  .bannerImg h1 {
+    font-size: 60px;
+    color: #fff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .heroPart {
+      height: 50vh;
+    }
+  
+    .heroPart img {
+      height: 300px;
+      width: 100%;
+      margin-left: -95px;
+      margin-top: -80px;
+    }
+  
+    .MyPainting img {
+      width: 74vw;
+    }
+  
+    #cardBody {
+      margin-left: 40px;
+    }
+  }
+  

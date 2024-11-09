@@ -1,0 +1,60 @@
+/* services.module.css */
+
+.bannerImg {
+    background-image: url(../assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+  }
+  
+  .servicePart {
+    background-color: #f8f9fa;
+  }
+  
+  .servicePart h2 {
+    font-size: 45px;
+    padding-top: 30px;
+  }
+  
+  .servicePart p {
+    font-size: 17px;
+    color: #6c757c;
+    padding: 0 20px;
+  }
+  
+  #serviceBorder {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .servicePart i {
+    font-size: 3rem;
+    color: gold;
+  }
+  
+  .servicePart .btn {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .servicePart h2 {
+      font-size: 36px;
+    }
+  
+    .servicePart p {
+      font-size: 15px;
+    }
+    
+    .servicePart i {
+      font-size: 2.5rem;
+    }
+  
+    #serviceBorder {
+      height: 150px;
+    }
+  }
+  

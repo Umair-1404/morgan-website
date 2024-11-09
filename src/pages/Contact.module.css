@@ -1,0 +1,22 @@
+.bannerImg {
+    background-image: url(../assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  
+  .contactPart i {
+    font-size: 2rem;
+  }
+  
+  .contactPart p {
+    color: #6c757c;
+    font-size: 17px;
+  }
+  
+  .contactPart span {
+    color: #6c757c;
+    font-size: 18px;
+  }
+  
